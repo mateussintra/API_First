@@ -16,7 +16,7 @@ namespace API_FF6.Models
         public DateTime BirthDate { get; set; }
         
         [NotMapped]
-        public int Age { get; set; }
+        public string Age { get; set; }
 
     }
 }

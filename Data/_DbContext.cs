@@ -14,6 +14,6 @@ namespace API_FF6.Models
             base.OnModelCreating(builder);
         }
 
-        public DbSet<Clients> Clients { get; set; }
+        public DbSet<Clients> clients { get; set; }
     }   
 }
